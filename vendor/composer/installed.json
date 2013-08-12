@@ -1,0 +1,47 @@
+[
+    {
+        "name": "plutonex/watch",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Plutonex/watch.git",
+            "reference": "29744525496274afa0dbdf84afb7b555e9836fc7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Plutonex/watch/zipball/29744525496274afa0dbdf84afb7b555e9836fc7",
+            "reference": "29744525496274afa0dbdf84afb7b555e9836fc7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-08-11 17:37:32",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Plutonex\\Watch": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "authors": [
+            {
+                "name": "Raftalks",
+                "email": "raftalks@gmail.com",
+                "homepage": "https://github.com/raftalks"
+            }
+        ],
+        "description": "PHP watch",
+        "keywords": [
+            "agnostic",
+            "observer",
+            "plutonex",
+            "watch"
+        ]
+    }
+]

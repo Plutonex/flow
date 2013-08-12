@@ -1,0 +1,22 @@
+{
+    "name": "plutonex/flow",
+    "description": "Framework agnostic Flow-based Programming in PHP",
+    "keywords":["agnostic","FBP","flow","plutonex"],
+    "license":"BSD",
+    "authors": [
+        {
+            "name": "Raftalks",
+            "email": "raftalks@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "plutonex/watch":"*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Plutonex\\Flow": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
